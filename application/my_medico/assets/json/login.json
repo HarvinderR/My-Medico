@@ -1,0 +1,10 @@
+{
+    "response": "success",
+    "user": {
+        "id": "1",
+        "username": "HarvinderR",
+        "name": "Harvinder",
+        "email": "work.hrathor@gmail.com",
+        "address": "Delhi,India"
+    }
+}

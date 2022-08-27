@@ -5,6 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:my_medico/model/home_item.dart';
 import 'package:my_medico/utils/utils.dart';
 
+//https://raw.githubusercontent.com/HarvinderR/My-Medico/Day-2/application/my_medico/assets/json/products.json
 class HomeItemContainer extends StatelessWidget {
   final Products products;
   const HomeItemContainer({Key? key, required this.products}) : super(key: key);
