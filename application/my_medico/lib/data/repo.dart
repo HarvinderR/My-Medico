@@ -8,8 +8,19 @@ class Repo {
   final _RepoHelper _helper = _RepoHelper(WebApi(), Db());
   static final Repo _singleton = Repo._internal();
 
-  Future<void> login(String username, String password) async {
-    await Future.delayed(Duration(seconds: 5));
+  Future<User> login(String username, String password) async {
+    print("repo login");
+    return await _helper.login(username, password);
+  }
+
+  Future<bool> forgetPassword(String username) async {
+    print("repo forget password");
+    return await _helper.forgetPassword(username);
+  }
+
+  Future<User> register(String name, String username, String password,
+      String email, String address) async {
+    return await _helper.register(name, username, password, email, address);
   }
 
   factory Repo() {
@@ -40,8 +51,7 @@ class _RepoHelper implements IWebApi, IDb {
 
   @override
   Future<bool> forgetPassword(String username) {
-    // TODO: implement forgetPassword
-    throw UnimplementedError();
+    return _webApi.forgetPassword(username);
   }
 
   @override
@@ -70,8 +80,7 @@ class _RepoHelper implements IWebApi, IDb {
 
   @override
   Future<User> login(String username, String password) {
-    // TODO: implement login
-    throw UnimplementedError();
+    return _webApi.login(username, password);
   }
 
   @override

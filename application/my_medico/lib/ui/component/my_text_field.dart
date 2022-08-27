@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Widget getTextField1(String label, String hint) {
+Widget getTextField1(String label, String hint,
+    {TextEditingController? controller}) {
   return TextField(
+    controller: controller,
     decoration: InputDecoration(
       isDense: true,
       filled: true,

@@ -41,8 +41,9 @@ class User {
   }
 
   factory User.fromMap(Map<String, dynamic> map) {
+    String myid = map['id'] ?? '0';
     return User(
-      id: map['id']?.toInt() ?? 0,
+      id: int.parse(myid),
       username: map['username'] ?? '',
       name: map['name'] ?? '',
       email: map['email'] ?? '',
