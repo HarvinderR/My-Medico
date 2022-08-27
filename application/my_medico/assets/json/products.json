@@ -1,0 +1,137 @@
+{
+    "item1": [
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0",
+        "title": "Medicine",
+        "color":"E1FFEE"
+      },
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/labtest_ff.webp?dim=256x0",
+        "title": "Lab Test",
+        "color":"ECF0FF"
+      },
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/healthcare_ff.webp?dim=256x0",
+        "title": "Health Care",
+        "color":"F5FAD5"
+      },
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/health_blogs_ff.webp?dim=256x0",
+        "title": "Health Blog",
+        "color":"FFF5D9"
+      },
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/offers_ff.webp?dim=256x0",
+        "title": "Offers",
+        "color":"FFEFEF"
+      },
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/offers_1_ff.webp?dim=720x0",
+        "title": "Surgeries",
+        "color":"A6DDDB"
+      },
+      {
+        "url": "https://assets.pharmeasy.in/apothecary/images/value_store.png?dim=256x0",
+        "title": "Value Store",
+        "color":"F3D7AC"
+      }
+    ],
+    "categories": [
+      {
+        "title": "Covid essentials",
+        "url": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/6d462f424a43372ea8b7b6f8ca13e052.png?f=png?dim=360x0"
+      },
+      {
+        "title": "Personal Care",
+        "url": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/9f446c0e74273d70b0baf85e4ff0f76a.png?f=png?dim=360x0"
+      },
+      {
+        "title": "Healthy food and drinks",
+        "url": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/aace6d1f0dc03f1f8c6e26dd880e1934.png?f=png?dim=360x0"
+      },
+      {
+        "title": "Beauty",
+        "url": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/3c7ab4d29c6631f7a5cb7eafd3bfbc79.png?f=png?dim=360x0"
+      },
+      {
+        "title": "Skin Care",
+        "url": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/9b3ad6971475304e9e1614ac30d4545a.png?f=png?dim=360x0"
+      },
+      {
+        "title": "Home Care",
+        "url": "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/dc96175686f135b5a22d1e57165d0246.png?f=png?dim=360x0"
+      }
+    ],
+    "product1": [
+      {
+        "title": "Dr Morepen Gluco One Bg 03 Glucometer Test Strips Box Of 50",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/I05582/dr-morepen-gluco-one-bg-03-glucometer-test-strips-box-of-50-1-1654168216.jpg?dim=720x0",
+        "discount": "24% OFF",
+        "actual_price": "MRP ₹849.00",
+        "offer_price": "₹621.00"
+      },
+      {
+        "title": "Liveasy Wellness Iron+folic Acid With Zinc, Vitamin C&b12 - Maintains Overall Health - Bottle Of 60",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/F22476/liveasy-wellness-ironfolic-acid-with-zinc-vitamin-cb12-maintains-overall-health-bottle-of-60-2-1641794058.jpg?dim=720x0",
+        "discount": "20% OFF",
+        "actual_price": "MRP ₹899.00",
+        "offer_price": "₹641.00"
+      },
+      {
+        "title": "Himalaya Liv.52 Ds Tablets - 60's",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/105900/himalaya-liv52-ds-tablets-60s-2-1654078613.jpg?dim=720x0",
+        "discount": "53% OFF",
+        "actual_price": "MRP ₹449.00",
+        "offer_price": "₹221.00"
+      },
+      {
+        "title": "Supradyn Daily Multivitamin Tablets 15s",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/T70695/supradyn-daily-multivitamin-tablets-15s-1-1641793954.jpg?dim=720x0",
+        "discount": "65% OFF",
+        "actual_price": "MRP ₹8749.00",
+        "offer_price": "₹4621.00"
+      },
+      {
+        "title": "Everherb Karela Jamun Juice - Helps Maintains Healthy Sugar Levels -helps In Weight Management - 1l",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/L79986/everherb-karela-jamun-juice-helps-maintains-healthy-sugar-levels-helps-in-weight-management-1l-2-1654234653.jpg?dim=720x0",
+        "discount": "29% OFF",
+        "actual_price": "MRP ₹809.00",
+        "offer_price": "₹628.00"
+      },
+      {
+        "title": "Depura, 60000 Iu Vitamin D3 Oral Solution,helps Bones Healthy, Aids In Boosting Immunity, Sugarfree",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/266249/depura-60000-iu-vitamin-d3-oral-solution-helps-bones-healthy-aids-in-boosting-immunity-sugarfree-2-1654077895.jpg?dim=720x0",
+        "discount": "37% OFF",
+        "actual_price": "MRP ₹859.00",
+        "offer_price": "₹625.00"
+      },
+      {
+        "title": "Pharmeasy All-in -one Vaporizer",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/Q83701/pharmeasy-all-in-one-vaporizer-1-1654233812.jpg?dim=720x0",
+        "discount": "20% OFF",
+        "actual_price": "MRP ₹830.00",
+        "offer_price": "₹638.00"
+      },
+      {
+        "title": "Accu-chek Active Glucometer Test Strips Box Of 50",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/000665/accu-chek-active-glucometer-test-strips-box-of-50-1-1654077435.jpg?dim=720x0",
+        "discount": "65% OFF",
+        "actual_price": "MRP ₹809.00",
+        "offer_price": "₹601.00"
+      },
+      {
+        "title": "Abzorb Antifungal Dusting Powder 100gm",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/000591/abzorb-antifungal-dusting-powder-100gm-2-1656944432.jpg?dim=720x0",
+        "discount": "27% OFF",
+        "actual_price": "MRP ₹867.00",
+        "offer_price": "₹698.00"
+      },
+      {
+        "title": "Unwanted 72 Strip Of 1 Tablet",
+        "url": "https://cdn01.pharmeasy.in/dam/products_otc/177755/unwanted-72-strip-of-1-tablet-2-1641787823.jpg?dim=720x0",
+        "discount": "27% OFF",
+        "actual_price": "MRP ₹888.00",
+        "offer_price": "₹688.00"
+      }
+    ]
+  }

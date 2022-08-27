@@ -4,6 +4,7 @@ import 'package:my_medico/data/repo.dart';
 import 'package:my_medico/ui/add_account/add_account_screen.dart';
 import 'package:my_medico/ui/component/my_text_field.dart';
 import 'package:my_medico/ui/forget_screen/forget_screen.dart';
+import 'package:my_medico/ui/home/home_screen.dart';
 import 'package:my_medico/viewmodel/loading.dart';
 import 'package:provider/provider.dart';
 
@@ -60,6 +61,8 @@ class _Body extends StatelessWidget {
                       ElevatedButton(
                           onPressed: () {
                             login("username", "password", context);
+                            Navigator.of(context)
+                                .pushNamed(HomeScreen.rnLoginScreen);
                           },
                           child: Text("Login"))
                     ]),

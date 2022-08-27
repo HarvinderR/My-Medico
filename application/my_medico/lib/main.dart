@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:my_medico/ui/login_screen/login_screen.dart';
 import 'package:my_medico/utils/utils.dart';
@@ -15,6 +16,16 @@ void main() {
   ], child: const MyApp()));
 }
 
+class MyCustomScrollBehavior extends MaterialScrollBehavior {
+  // Override behavior methods and getters like dragDevices
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+        // etc.
+      };
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -27,6 +38,8 @@ class MyApp extends StatelessWidget {
       children: [
         MaterialApp(
           title: 'Flutter Demo',
+          scrollBehavior: MyCustomScrollBehavior(),
+          debugShowCheckedModeBanner: false,
           initialRoute: LoginScreen.rnLoginScreen,
           routes: routes,
           theme: ThemeData(
