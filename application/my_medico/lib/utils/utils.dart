@@ -3,12 +3,18 @@ import 'package:my_medico/ui/add_account/add_account_screen.dart';
 import 'package:my_medico/ui/forget_screen/forget_screen.dart';
 import 'package:my_medico/ui/home/home_screen.dart';
 import 'package:my_medico/ui/login_screen/login_screen.dart';
+import 'package:my_medico/ui/prescription_screen/prescription_screen.dart';
+import 'package:my_medico/ui/suggestion_screen/suggestion_screen.dart';
+import 'package:my_medico/ui/user_screen/user_screen.dart';
 
 final routes = <String, WidgetBuilder>{
   LoginScreen.rnLoginScreen: (context) => const LoginScreen(),
   AddAccountScreen.rnLoginScreen: (context) => const AddAccountScreen(),
   ForgetScreen.rnLoginScreen: (context) => const ForgetScreen(),
   HomeScreen.rnLoginScreen: (context) => const HomeScreen(),
+  UserScreen.rnLoginScreen: (context) => const UserScreen(),
+  SuggestionScreen.rnLoginScreen: (context) => const SuggestionScreen(),
+  PrescriptionScreen.rnLoginScreen: (context) => const PrescriptionScreen(),
 };
 
 const assetsIconPath = "assets/icons";

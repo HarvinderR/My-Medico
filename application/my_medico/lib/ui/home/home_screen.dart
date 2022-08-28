@@ -22,7 +22,15 @@ class _BodyState extends State<_Body> {
   Products? _products;
 
   Future<Products> getProducts() async {
-    String res = await rootBundle.loadString('json/products.json');
+    try {
+      String res = await rootBundle.loadString('json/products.json');
+      return welcomeFromJson(res);
+    } catch (e, s) {
+      print(e);
+      print(s);
+    }
+
+    String res = await rootBundle.loadString('assets/json/products.json');
     return welcomeFromJson(res);
   }
 

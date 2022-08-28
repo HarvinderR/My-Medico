@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:shared_preferences/shared_preferences.dart';
+
 class User {
   final int id;
   final String username;
@@ -13,6 +15,15 @@ class User {
     required this.email,
     required this.address,
   });
+
+  Future<void> save() async {
+    var pref = await SharedPreferences.getInstance();
+    await pref.setInt("id", id);
+    await pref.setString("username", username);
+    await pref.setString("name", name);
+    await pref.setString("email", email);
+    await pref.setString("address", address);
+  }
 
   User copyWith({
     int? id,
@@ -49,6 +60,15 @@ class User {
       email: map['email'] ?? '',
       address: map['address'] ?? '',
     );
+  }
+  static Future<User> fetchUserFromSharedPref() async {
+    var pref = await SharedPreferences.getInstance();
+    return User(
+        id: pref.getInt("id") ?? -1,
+        username: pref.getString("username") ?? "",
+        name: pref.getString("name") ?? "",
+        email: pref.getString("email") ?? "",
+        address: pref.getString("address") ?? "");
   }
 
   String toJson() => json.encode(toMap());

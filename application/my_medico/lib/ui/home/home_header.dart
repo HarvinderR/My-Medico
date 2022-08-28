@@ -3,6 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:my_medico/ui/prescription_screen/prescription_screen.dart';
+import 'package:my_medico/ui/suggestion_screen/suggestion_screen.dart';
+import 'package:my_medico/ui/user_screen/user_screen.dart';
 import 'package:my_medico/utils/utils.dart';
 
 class HomeHeader extends StatefulWidget {
@@ -18,7 +21,7 @@ class _HomeHeaderState extends State<HomeHeader> {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(8),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.white,
         // border: Border(
         //   bottom: BorderSide(
@@ -41,6 +44,19 @@ class _HomeHeaderState extends State<HomeHeader> {
                 style: TextStyle(fontSize: 20),
               ),
               Expanded(child: Container()),
+              InkWell(
+                onTap: () {
+                  // Navigator.of(context).pushNamed(UserScreen.rnLoginScreen);
+                  // Navigator.of(context).pushNamed(SuggestionScreen.rnLoginScreen);
+                  Navigator.of(context)
+                      .pushNamed(PrescriptionScreen.rnLoginScreen);
+                },
+                child: const Icon(
+                  Icons.account_circle,
+                  color: Colors.black,
+                  size: 30.0,
+                ),
+              ),
               Padding(
                 padding: const EdgeInsets.only(right: 8),
                 child: Badge(

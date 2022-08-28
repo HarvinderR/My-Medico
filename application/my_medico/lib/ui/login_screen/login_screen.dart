@@ -61,6 +61,7 @@ class _BodyState extends State<_Body> {
   void login(String username, String password, BuildContext context) async {
     print("loginscreen login called");
     context.read<LoginViewModel>().login(username, password).then((value) {
+      value.save();
       Navigator.of(context).pushNamed(HomeScreen.rnLoginScreen);
     }).onError((error, stackTrace) {
       print(error);
